@@ -11,7 +11,25 @@ Request:
   X-Telnyx-Client-User-Agent={"bindings_version":"3.1.0","lang":".net","publisher":"Telnyx","lang_version":".NET 10.0.8","os_version":"Ubuntu 26.04.1 LTS"}
 
     Body: 
-    {"to":"+1**********","from":"+14445551212","","from_display_name":"HelloWorld","connection_id":"MY_CONNECTION_ID","audio_url":"https://us-east-1.telnyxcloudstorage.com/audio.mp3","timeout_secs":30,"time_limit_secs":600,"answering_machine_detection":"disabled","command_id":"dcf6fa68-e589-4956-85bd-0ce29e97390a","link_to":"agent-leg-cc","sip_auth_username":"mySipUsername","sip_auth_password":"mySipPassword","webhook_url_method":"POST","ExtraParams":{"supervisor_role":"monitor","bridge_intent":"true"}}<mark>&supervisor_role=monitor&bridge_intent=true</mark>
+    {
+      "to": "+1**********",
+      "from": "+14445551212",
+      "from_display_name": "HelloWorld",
+      "connection_id": "MY_CONNECTION_ID",
+      "audio_url": "https://us-east-1.telnyxcloudstorage.com/audio.mp3",
+      "timeout_secs": 30,
+      "time_limit_secs": 600,
+      "answering_machine_detection": "disabled",
+      "command_id": "dcf6fa68-e589-4956-85bd-0ce29e97390a",
+      "link_to": "agent-leg-cc",
+      "sip_auth_username": "mySipUsername",
+      "sip_auth_password": "mySipPassword",
+      "webhook_url_method": "POST",
+      "ExtraParams": {
+        "supervisor_role": "monitor",
+        "bridge_intent": "true"
+      }
+    }&supervisor_role=monitor&bridge_intent=true
 
 
         
